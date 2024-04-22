@@ -1,0 +1,37 @@
+:root {
+  --background-color: #fff; /* Light mode background color */
+  --text-color: #000; /* Light mode text color */
+}
+
+/* Styles for dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #181A1B;
+    --text-color: #fff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+	padding-left: 20%;
+	padding-right: 20%;
+  }
+  
+  /* Apply dark mode styles to other elements */
+}
+
+/* Default styles for light mode */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Apply light mode styles to other elements */
+
+.iframe-container {
+  margin: 5rem auto; /* This centers the container horizontally */
+  text-align: center; /* This is optional for some browsers */
+}
+
+
+
