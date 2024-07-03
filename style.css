@@ -16,7 +16,16 @@
 	padding-left: 20%;
 	padding-right: 20%;
   }
-  
+
+@media (max-width: 768px) {
+  body {
+	background-color: var(--background-color);
+    color: var(--text-color);
+	padding-left: 3%;
+	padding-right: 3%;
+  }
+}
+
   /* Apply dark mode styles to other elements */
 }
 
